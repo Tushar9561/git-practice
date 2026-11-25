@@ -8,7 +8,11 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def square(a):
+    return a * a
+
 
 print("Addition:", add(10, 20))
 print("Subtraction:", subtract(20, 10))
 print("Multiplication:", multiply(10, 5))
+print("Square", square(4))
